@@ -1,0 +1,8 @@
+name = "Orphans"
+description = "Find orphans nodes (don't belong to a menu). Views 3 API in use."
+core = "7.x"
+package = "Lytical"
+dependencies[] = views
+dependencies[] = views_bulk_operations
+version = 7.x-3.x-dev
+files[] = lytical_orphans_handler_filter_orphan_status.inc
